@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>
+    typescript doodles
+  </title>
+  <style>
+    #btnContainer {
+      display: flex;
+    }
+    
+    button {
+      min-height: 40px;
+      min-width: 40px;
+      line-height: 15px;
+      font-size: 15px;
+      display: inline-block;
+      margin: 2px;
+    }
+    
+    sub,
+    sup {
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Input nums to calc</h1>
+  num1
+  <input style="display:inline-block;" type="number"> num2
+  <input style="display:inline-block;" type="number"> =
+  <input style="display:inline-block;" type="number" readonly placeholder="click on buttons for result">
+  <hr>
+  <span id="btnContainer">
+    <button value="add">+</button>
+    <button value="subtract">-</button>
+    <button value="multiply">*</button>
+    <button value="divide">/</button>
+    <button value="powerTo">
+      <sub>num1</sub>
+      <sup>num2</sup>
+    </button>
+    <button value="powerTo">
+      <span>√</span>
+  <sub>num1</sub>
+  </button>
+  </span>
+
+  <script src="calcClass.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

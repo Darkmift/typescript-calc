@@ -1,0 +1,4 @@
+npm install npm -g
+npm install npm -g typescript
+tsc <YOUR ts FILENAME> --target ES5
+tsc *.ts --watch --target ES5
